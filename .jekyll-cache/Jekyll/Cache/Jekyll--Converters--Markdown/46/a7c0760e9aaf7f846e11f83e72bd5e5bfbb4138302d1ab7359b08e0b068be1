@@ -1,0 +1,17 @@
+I"6<p>Computer is everywhere now, and people would like to make computer to understand the world around them so that it can activate the home/indoor automation system. To achieve that, the computer should be able to identify different activities that people are doing, which is the activity recognition. Camera, as one of the most common way of conducting the activity recognition, has many weaknesses such as making privacy concern and performing bad in a dim environment.</p>
+
+<p>UltraMic is the FPGA-based microphone array focusing on collecting the ultrasound and achieving the activity recognition. Instead of using a camera, microphone array will not be affected by the light condition and ultrasound frequency range can better protect people privacy. The project is still under development. Currently, we are able to achieve a 2D localization based on 50kHz sampling rate and a cross-shape microphone array structure composed by 13 microphones on our microphone array board. CHECK the video demo below ;).</p>
+
+<p>In the demo video (sound happen to be not recorded), I use my phone to play a 440Hz sine wave signal. You are able to see ten most recent system predictions on sound source location. Quanlitatively speaking, the performance are quite good right? Later, the demo doing ultrasound source localization with 192KHz system sampling rate will be provided soon.</p>
+
+<p><iframe src="https://www.youtube.com/embed/Kj5Qh16OVv4" frameborder="0" allowfullscreen=""></iframe></p>
+
+<p><img src="/images/86.jpg" alt="UltraMic" />
+<em>How I look like from the third person perspective</em></p>
+
+<blockquote>
+  <p>The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!</p>
+
+  <p><cite>George Bernard Shaw</cite></p>
+</blockquote>
+:ET

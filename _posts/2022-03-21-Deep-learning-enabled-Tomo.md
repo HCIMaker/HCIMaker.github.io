@@ -1,0 +1,38 @@
+---
+layout: post
+title:  Deep-learning-enabled Microwave-induced Thermoacoustic Tomography based on Sparse Data for Breast Cancer Detection
+date:   2022-03-21
+image:  '/images/91.jpg'
+tags:   [Medical Imaging, Machine Learning]
+featured: true
+---
+
+As a rapidly developing novel electromagnetic 
+imaging technique, microwave-induced thermoacoustic 
+tomography (MITAT) has found many applications and attracted 
+tremendous research interest. Using sparse data to reconstruct 
+images is very challenging for MITAT. This work proposes a 
+novel deep-learning-enabled MITAT (DL-MITAT) modality to 
+address the sparse data reconstruction problem and applies it in 
+breast cancer detection. The applied network is a domain 
+transform network called FPNet+ResU-Net. Detailed structure 
+and implementation method of the network is described. We 
+conduct both simulation and ex-vivo experiments with breast 
+phantoms to test the validity of the DL-MITAT approach. The 
+obtained images given by the trained network exhibit much better 
+quality and have much less artifacts than those obtained by a 
+traditional imaging algorithm. We show that only 15 
+measurements can still reliably recover an image of the breast 
+tumor for both full-view and limited-view configurations in 
+ex-vivo experiments. We also provide detailed discussions on the 
+capability and limitations of the proposed scheme. This work 
+presents a new paradigm for MITAT based on sparse data and 
+can be applied in all related applications of MITAT, including 
+biomedical imaging, nondestructive testing, and therapy 
+guidance.
+
+For detail, please refer:
+  [Paper](https://ieeexplore.ieee.org/document/9738842){: .btn}
+
+> Life would be too smooth if it had no rubs in it.
+>

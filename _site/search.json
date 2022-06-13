@@ -1,0 +1,30 @@
+[
+  
+    {
+      "title"    : "Deep-learning-enabled Microwave-induced Thermoacoustic Tomography based on Sparse Data for Breast Cancer Detection",
+      "category" : "",
+      "tags"     : "Medical Imaging and Machine Learning",
+      "url"      : "/Deep-learning-enabled-Tomo",
+      "date"     : "Mar 21, 2022",
+      "image": "/images/91.jpg"
+    } ,
+  
+    {
+      "title"    : "TomoIR",
+      "category" : "",
+      "tags"     : "Medical Imaging and Hand Gesture Identification",
+      "url"      : "/TomoIR",
+      "date"     : "Oct 31, 2021",
+      "image": "/images/87.jpg"
+    } ,
+  
+    {
+      "title"    : "UltraMic",
+      "category" : "",
+      "tags"     : "Acoustic Sensing",
+      "url"      : "/UltraMic",
+      "date"     : "Aug 1, 2021",
+      "image": "/images/85.jpg"
+    } 
+  
+]
