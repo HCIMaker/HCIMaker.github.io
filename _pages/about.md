@@ -24,5 +24,6 @@ Besides doing awesome & crazy research, I am also a snowboarder, singer and hike
 <!--<p><iframe src="https://www.youtube.com/embed/R3VMW6fxK6Y" frameborder="0" allowfullscreen></iframe></p>-->
 
 
-> Life would be too smooth if it had no rubs in it.
+> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 >
+> <cite>George Bernard Shaw</cite>
