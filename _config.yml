@@ -2,7 +2,7 @@
 # General Site Settings
 title: Jiale Zhang
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Hi, my name is Jiale Zhang. I’m a Master student in the University of Michigan working on Embedded Systems and Human-Computer Interactions.
+description: Hi, my name is Jiale Zhang. I’m a first-year Ph.D. student at the University of Michigan working on Embedded Systems and Human-Computer Interactions.
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
