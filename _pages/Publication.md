@@ -3,6 +3,13 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+**2023**
+
+- **Poster Abstract: Vibration-Based Object Classification with Structural Response of Ambient Music**  
+**J. Zhang**, S Pati, J Codling, A Bannis, C Ruiz, HY Noh and P Zhang  
+  *IPSN '23: Proceedings of the 22nd International Conference on Information Processing in Sensor Networks, doi: 10.1145/3583120.3589825.*  
+  [Paper](https://dl.acm.org/doi/abs/10.1145/3583120.3589825){: .btn}
+
 **2022**
 
 - **Deep-learning-enabled Microwave-induced Thermoacoustic Tomography based on Sparse Data for Breast Cancer Detection**  
