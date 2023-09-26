@@ -12,7 +12,7 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 author:
   avatar: '/images/Portrait.jpg'
   name: Jiale Zhang
-  job: Maker in Embedded Systems & Human Computer Interaction
+  job: Maker in Embedded Systems & Human-Computer Interaction. Happy to get [Qualcomm Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2023-north-america)
 
 social:
 - {icon: "ion ion-logo-github", link: "https://github.com/HCIMaker"}
