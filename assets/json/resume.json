@@ -109,11 +109,11 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Sensor Selection & Deployment",
+        "Sensing Hardware Design",
         "Data Collection",
         "Data Processing",
         "Data Analysis",
-        "Machine Learning Model Design"
+        "Machine Learning"
       ]
     }
   ],
@@ -129,7 +129,7 @@
       "icon": ""
     }
   ],
-  "interests": [
+  "interests": [   
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
