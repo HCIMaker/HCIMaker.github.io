@@ -18,6 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi all, I am a second-year Ph.D. candidate major in Embedded Systems in the Electrical and Computer Engineering Department at the University of Michigan, Ann Arbor. I work closely with [Prof. Pei Zhang](https://peizhang.engin.umich.edu/) and collabrotes solidly with [Structures as Sensors Lab](https://noh-lab.stanford.edu/research) at the Stanford University. My research focuses on characterizing novel <strong><u>multimodal-sensing systems</u></strong> with <strong><u>explainable machine learning models</u></strong> to enhance the <strong><u>human-computer interaction</u></strong> experiences. 
+Hi all, I am a second-year Ph.D. candidate major in Embedded Systems in the Electrical and Computer Engineering Department at the University of Michigan, Ann Arbor. 
+I work closely with [Prof. Pei Zhang](https://peizhang.engin.umich.edu/) and collabrotes solidly with [Structures as Sensors Lab](https://noh-lab.stanford.edu/research) at the Stanford University. 
+My research focuses on characterizing novel <strong><u>multimodal-sensing systems</u></strong> with <strong><u>explainable machine learning models</u></strong> to enhance the <strong><u>human-computer interaction</u></strong> experiences. 
 
-With my knowledge across end-to-end system construction, embedded systems and machine learning, I am actively engaging in acoustics, RFID and camera sensing currently under multiple scenarios: Autonomous stores, stadiums and hosptial. I hope my works can inspire more novel and practical sensing systems utilizing different modalties.
+With my knowledge across end-to-end system construction, embedded systems and machine learning, 
+I am actively engaging in acoustics, RFID and camera sensing currently under multiple scenarios: 
+Autonomous stores, stadiums and hosptial. I hope my works can inspire more novel and practical sensing systems utilizing different modalties.
+
+Before my Ph.D., I spent my master career working with Prof. Alanson Sample in the [Interaction Sensing & Computing Lab](https://theisclab.com/team.html) and developed 
+UltraMic, a privacy-preserving indoor activity recognition and localization system using ultrasound microphone array.
