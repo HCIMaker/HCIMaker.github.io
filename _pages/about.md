@@ -6,20 +6,18 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jiale.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href='https://scholar.google.com/citations?user=dFnmuekAAAAJ'>Google Scholar</a></p>
+    <p><a href='https://hcimaker.github.io/cv/'>Curriculum Vitae</a></p>
+    <p><strong>Email: jiale (at) umich.edu</strong></p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello,Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi all, I am a second-year Ph.D. candidate major in Embedded Systems in the Electrical and Computer Engineering Department at the University of Michigan, Ann Arbor. I work closely with [Prof. Pei Zhang](https://peizhang.engin.umich.edu/) and collabrotes solidly with [Structures as Sensors Lab](https://noh-lab.stanford.edu/research) at the Stanford University. My research focuses on characterizing novel <strong><u>multimodal-sensing systems</u></strong> with <strong><u>explainable machine learning models</u></strong> to enhance the <strong><u>human-computer interaction</u></strong> experiences. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/),
+With my knowledge across end-to-end system construction, embedded systems and machine learning, I am actively engaging in acoustics, RFID and camera sensing currently under multiple scenarios: Autonomous stores, stadiums and hosptial. I hope my works can inspire more novel and practical sensing systems utilizing different modalties.
