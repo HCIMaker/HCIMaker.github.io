@@ -23,4 +23,8 @@ The work is still under development, hope to see it soon, but let's check out th
 
 {% include video.liquid path="assets/video/UltraMic_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 
-Big thanks to  
+Big thanks to [Cameron](https://callmeron7.github.io/), [Yasha](https://yasha.xyz/) (IN VIDEO) !
+
+
+
+<strong style="display: block; text-align: right; margin-top: 20px; font-size: 1rem;">05-12-2024</strong>
