@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I won [Qualcomm Innvotion Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2023-north-america) with UltraMic! Check out this awesome project :sunglasses: !
+I won [Qualcomm Innvotion Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2023-north-america) with [UltraMic](https://hcimaker.github.io/projects/UltraMic/)! Check out this awesome project :sunglasses: !
