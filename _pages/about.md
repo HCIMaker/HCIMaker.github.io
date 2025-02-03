@@ -31,4 +31,4 @@ UltraMic, a privacy-preserving indoor activity recognition and localization syst
 
 ## Pro Bono Office Hours
 
-Pro Bono Office Hours
+[Pro Bono Office Hours](https://docs.google.com/forms/d/e/1FAIpQLSdoPn2VNeDgDZ3vOgAAEgud4Ms_sXYhApXTaEdQi8qZIAyW0Q/viewform?usp=header)
