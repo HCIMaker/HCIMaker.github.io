@@ -74,6 +74,17 @@
   ],
   "publications": [
     {
+      "name": "Sniffing Out the City - Vehicular Multimodal Sensing for Environmental and Infrastructure Analysis",
+      "publisher": "Gersey, Julia and Aggarwal, Jatin and *Zhang, Jiale* and Codling, Jesse and Zhang, Pei",
+      "releaseDate": "05-06-2025",
+      "url": "https://doi.org/10.1145/3715014.3724043",
+      "summary": ["Assessing urban infrastructure and environment quality at scale remains a challenge. ",
+      "This work presents a multimodal sensing framework that integrates computer vision-based infrastructure analysis with mobile air quality monitoring to explore urban conditions beyond the camera's field of view. ",
+      "A vehicle-mounted system captures video data for semantic segmentation of roads and buildings while an air intake unit collects temperature, humidity, CO2, TVOC, and AQI levels. ",
+      "A preliminary test drive in Ann Arbor demonstrated expected correlations between CO2 and TVOC spikes in dense urban areas, providing a proof of concept for linking environmental sensing with visual urban analysis. ",
+      "Future work will refine sensor calibration, adaptive sampling strategies, and predictive modeling to improve accuracy and scalability."]
+    },
+    {
       "name": "FloHR: Ubiquitous Heart Rate Measurement using Indirect Floor Vibration Sensing",
       "publisher": "Jesse R. Codling, Jeffrey D. Shulkin, Yen-Cheng Chang, *Jiale Zhang*, Hugo Latapie, Hae Young Noh, Pei Zhang, Yiwen Dong",
       "releaseDate": "10-29-2024",
