@@ -24,6 +24,15 @@
   },
   "work": [
     {
+      "name": "Dolby Laboratories",
+      "position": "PhD Research Intern",
+      "url": "https://www.dolby.com/",
+      "startDate": "2025-05-19",
+      "endDate": "2025-08-08",
+      "summary": "Modeled intrinsic and extrinsic feedback design for vocal training system on glasses.",
+      "highlights": ["Prototyped a smart glasses system for vocal training with ongoing patent filing"]
+    },
+    {
       "name": "AiFi Inc.",
       "position": "AI Engineer Intern",
       "url": "https://aifi.com/",
