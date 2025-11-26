@@ -18,8 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi all, I am a third-year Ph.D. candidate major in Embedded Systems in the Electrical and Computer Engineering Department at the University of Michigan, Ann Arbor. 
-I work closely with [Prof. Pei Zhang](https://peizhang.engin.umich.edu/) and collabrotes solidly with [Structures as Sensors Lab](https://noh-lab.stanford.edu/research) at the Stanford University. 
+Hi all, I am a third-year Ph.D. candidate major in Embedded Systems in the Electrical and Computer Engineering Department at the University of Michigan, Ann Arbor.
+
+I work closely with [Prof. Pei Zhang](https://peizhang.engin.umich.edu/) and collabrotes solidly with [Structures as Sensors Lab](https://noh-lab.stanford.edu/research) at the Stanford University.
+
 My research focuses on modeling <strong><u>closed-loop vibration sensing systems</u></strong> that can adaptively perceive the environment through passive observation, and then through active excitation informed by what the system has already learned. I work at the intersection of physics-based modeling and data-driven inference, designing sensing frameworks where excitation, measurement, and analysis continuously refine one another. A central part of my approach is iterative validation between lab prototyping and real-world deployment. This cycle enables robust, scalable systems that transform everyday structures into reliable sensing platforms.
 To validate my research in various real-world scenarios, I collaborate with diverse partners such as:
 
