@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: Resume_Jiale_Zhang.pdf
+cv_pdf: CV_Jiale_Zhang.pdf
 description: 
 toc:
   sidebar: left
