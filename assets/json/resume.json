@@ -72,7 +72,18 @@
       "summary": "The Qualcomm Innovation Fellowship (QIF) program is focused on recognizing, rewarding, and mentoring PhD and Masters* students across a broad range of technical research, based on Qualcomm's core values of innovation, execution, and teamwork. The program empowers graduate students to take giant steps toward achieving their research goals."
     }
   ],
-  "publications": [
+  "selected_publications": [
+    {
+      "name": "<strong>(BEST PAPER AWARD)</strong> ViLA: Leveraging General-Purpose Audio for Training Vibration-Based Stadium Crowd Monitoring Models",
+      "publisher": "Chang, Yen Cheng and Codling, Jesse and Dong, Yiwen and *Zhang, Jiale* and Noh, Hae Young and Zhang, Pei",
+      "releaseDate": "12-23-2025",
+      "url": "https://doi.org/10.1145/3736425.3770100",
+      "summary": ["Crowd monitoring in sports stadiums is important to enhance public safety and improve audience experience. ",
+      "Existing approaches mainly rely on manual observation, cameras, and microphones, which can be disruptive and often raise privacy issues. ",
+      "Recently, floor vibration sensing has emerged as a less disruptive and more non-intrusive method for crowd monitoring in sports stadiums. ",
+      "However, because vibration-based crowd monitoring is newly developed, open-source datasets are lacking, making it challenging to develop data-driven models. ",
+      "In this paper, we introduce Vibration Leverages Audio (ViLA), a vibration-based crowd monitoring method that reduces the reliance on labeled data by pre-training with unlabeled audio data. "]
+    },
     {
       "name": "Sniffing Out the City - Vehicular Multimodal Sensing for Environmental and Infrastructure Analysis",
       "publisher": "Gersey, Julia and Aggarwal, Jatin and *Zhang, Jiale* and Codling, Jesse and Zhang, Pei",

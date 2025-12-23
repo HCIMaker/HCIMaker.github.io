@@ -1,5 +1,24 @@
 ---
 ---
+@inproceedings{10.1145/3736425.3770100,
+author = {Chang, Yen Cheng and Codling, Jesse and Dong, Yiwen and Zhang, Jiale and Noh, Hae Young and Zhang, Pei},
+title = {ViLA: Leveraging General-Purpose Audio for Training Vibration-Based Stadium Crowd Monitoring Models},
+year = {2025},
+isbn = {9798400719455},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3736425.3770100},
+doi = {10.1145/3736425.3770100},
+abstract = {Crowd monitoring in sports stadiums is important to enhance public safety and improve audience experience. Existing approaches mainly rely on manual observation, cameras, and microphones, which can be disruptive and often raise privacy issues. Recently, floor vibration sensing has emerged as a less disruptive and more non-intrusive method for crowd monitoring in sports stadiums. However, because vibration-based crowd monitoring is newly developed, open-source datasets are lacking, making it challenging to develop data-driven models.In this paper, we introduce Vibration Leverages Audio (ViLA), a vibration-based crowd monitoring method that reduces the reliance on labeled data by pre-training with unlabeled cross-modality data. Specifically, ViLA is first pre-trained on general-purpose audio data in an unsupervised manner, and then fine-tuned with a limited amount of labeled vibration data in sensing domains. Through this approach, ViLA learns general spectral pattern representations from audio, then adapts this knowledge to vibrations. By leveraging general-purpose audio datasets, ViLA reduces the reliance on large quantities of domain-specific vibration data. This is particularly important in sensing environments characterized by high data variance and limited sensing durations, such as sports games. Our real-world experiments demonstrate that pre-training the vibration model using publicly available audio data (YouTube clips) achieved up to a 5.8X error reduction compared to the model without audio pre-training.},
+booktitle = {Proceedings of the 12th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+pages = {96–106},
+numpages = {11},
+keywords = {floor vibration, crowd behavior, sports game, machine learning, cross-modality learning},
+location = {Colorado School of Mines, Golden, CO, USA},
+series = {BuildSys '25},
+selected={true}
+}
+
 @inbook{10.1145/3715014.3724043,
 author = {Gersey, Julia and Aggarwal, Jatin and Zhang, Jiale and Codling, Jesse and Zhang, Pei},
 title = {Poster Abstract: Sniffing Out the City - Vehicular Multimodal Sensing for Environmental and Infrastructure Analysis},
