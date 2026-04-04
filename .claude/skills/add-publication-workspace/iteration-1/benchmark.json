@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "skill_name": "add-publication",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-04-03T05:54:46Z",
+    "evals_run": [
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 219.0,
+        "tokens": 57776,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "selected-field-present",
+          "passed": true,
+          "evidence": "Line 21: selected={true}"
+        },
+        {
+          "text": "award-fields-present",
+          "passed": true,
+          "evidence": "Line 19: award={Best Paper}, Line 20: award_name={Best Paper Award}"
+        },
+        {
+          "text": "abbr-field-present",
+          "passed": true,
+          "evidence": "Line 18: abbr={SenSys}"
+        },
+        {
+          "text": "venues-yml-updated",
+          "passed": true,
+          "evidence": "venues.yml contains SenSys with color #00008B (dark blue) and url https://sensys.acm.org"
+        },
+        {
+          "text": "preview-field-present",
+          "passed": true,
+          "evidence": "Line 22: preview = {vibrosense.png}"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 151.3,
+        "tokens": 35173,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "entry-prepended-to-papers-bib",
+          "passed": true,
+          "evidence": "New entry starts at line 3, before existing ViLA entry at line 23"
+        },
+        {
+          "text": "preview-field-present",
+          "passed": true,
+          "evidence": "Line 20: preview = {smartstep.jpg}"
+        },
+        {
+          "text": "no-selected-field",
+          "passed": true,
+          "evidence": "No selected field in the new entry (lines 3-21)"
+        },
+        {
+          "text": "original-fields-preserved",
+          "passed": true,
+          "evidence": "Abstract, keywords, doi, booktitle, location, series all preserved"
+        },
+        {
+          "text": "valid-bibtex-syntax",
+          "passed": true,
+          "evidence": "Balanced braces, proper @inproceedings structure, closing brace at line 21"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 156.6,
+        "tokens": 40692,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "article-type-preserved",
+          "passed": true,
+          "evidence": "Line 3: @ARTICLE{10234567,"
+        },
+        {
+          "text": "preview-field-present",
+          "passed": true,
+          "evidence": "Line 13: preview={sparse_vibration.jpg}"
+        },
+        {
+          "text": "no-selected-field",
+          "passed": true,
+          "evidence": "No selected field in the new entry"
+        },
+        {
+          "text": "journal-field-preserved",
+          "passed": true,
+          "evidence": "Line 5: journal={IEEE Transactions on Signal Processing}"
+        },
+        {
+          "text": "entry-prepended-to-papers-bib",
+          "passed": true,
+          "evidence": "New @ARTICLE entry starts at line 3, first entry after front matter"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "failed": 2,
+        "total": 5,
+        "time_seconds": 185.0,
+        "tokens": 47861,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "selected-field-present",
+          "passed": true,
+          "evidence": "Line 18: selected={true}"
+        },
+        {
+          "text": "award-fields-present",
+          "passed": false,
+          "evidence": "No award or award_name fields. Instead, modified the title to include <strong>(BEST PAPER AWARD)</strong> prefix. The al-folio award/award_name fields were not used."
+        },
+        {
+          "text": "abbr-field-present",
+          "passed": false,
+          "evidence": "No abbr field in the BibTeX entry"
+        },
+        {
+          "text": "venues-yml-updated",
+          "passed": true,
+          "evidence": "venues.yml has SenSys with color #00008B, but missing url field"
+        },
+        {
+          "text": "preview-field-present",
+          "passed": true,
+          "evidence": "Line 19: preview = {vibrosense.png}"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "failed": 1,
+        "total": 5,
+        "time_seconds": 122.9,
+        "tokens": 30469,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "entry-prepended-to-papers-bib",
+          "passed": true,
+          "evidence": "New entry starts at line 3, before existing entries"
+        },
+        {
+          "text": "preview-field-present",
+          "passed": true,
+          "evidence": "Line 20: preview = {smartstep.jpg}"
+        },
+        {
+          "text": "no-selected-field",
+          "passed": false,
+          "evidence": "Line 19: selected={true} was added even though user did NOT request it"
+        },
+        {
+          "text": "original-fields-preserved",
+          "passed": true,
+          "evidence": "All original fields preserved"
+        },
+        {
+          "text": "valid-bibtex-syntax",
+          "passed": true,
+          "evidence": "Valid BibTeX structure"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 142.7,
+        "tokens": 43145,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "article-type-preserved",
+          "passed": true,
+          "evidence": "Line 3: @ARTICLE{10234567,"
+        },
+        {
+          "text": "preview-field-present",
+          "passed": true,
+          "evidence": "Line 13: preview={sparse_vibration.jpg}"
+        },
+        {
+          "text": "no-selected-field",
+          "passed": true,
+          "evidence": "No selected field in the new entry"
+        },
+        {
+          "text": "journal-field-preserved",
+          "passed": true,
+          "evidence": "Line 5: journal={IEEE Transactions on Signal Processing}"
+        },
+        {
+          "text": "entry-prepended-to-papers-bib",
+          "passed": true,
+          "evidence": "New @ARTICLE entry starts at line 3"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 175.6333,
+        "stddev": 37.65,
+        "min": 151.3,
+        "max": 219.0
+      },
+      "tokens": {
+        "mean": 44547.0,
+        "stddev": 11784.2976,
+        "min": 35173,
+        "max": 57776
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.8,
+        "stddev": 0.2,
+        "min": 0.6,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 150.2,
+        "stddev": 31.7221,
+        "min": 122.9,
+        "max": 185.0
+      },
+      "tokens": {
+        "mean": 40491.6667,
+        "stddev": 8994.4733,
+        "min": 30469,
+        "max": 47861
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.20",
+      "time_seconds": "+25.4",
+      "tokens": "+4055"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "add-publication",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Hey, I just got a new paper accepted at UbiComp 2025. Here's the BibTeX from ACM:\n\n@inproceedings{10.1145/9999999.1234567,\nauthor = {Zhang, Jiale and Codling, Jesse R. and Noh, Hae Young and Zhang, Pei},\ntitle = {SmartStep: Real-Time Gait Analysis Using Floor Vibration Sensing},\nyear = {2025},\nisbn = {9798400712345},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/9999999.1234567},\ndoi = {10.1145/9999999.1234567},\nabstract = {We present SmartStep, a floor vibration-based system for real-time gait analysis. Our system uses geophone sensors embedded in floor structures to detect and classify walking patterns without requiring wearable devices. Through experiments in a residential building, SmartStep achieves 94% accuracy in identifying gait abnormalities, enabling early detection of mobility issues in elderly residents.},\nbooktitle = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},\npages = {1--22},\nnumpages = {22},\nkeywords = {gait analysis, floor vibration, ubiquitous sensing, health monitoring},\nlocation = {Melbourne, Australia},\nseries = {UbiComp '25}\n}\n\nThe preview image is smartstep.jpg, I already put it in the right folder.",
+      "expected_output": "BibTeX entry added to papers.bib with preview field, no selected field, placed at top after front matter",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "add this paper to my publications, it won best paper award and I want it selected on the homepage. Also add SenSys as a venue with a dark blue color.\n\n@inproceedings{10.1145/8888888.7777777,\nauthor = {Zhang, Jiale and Chang, Yen Cheng and Dong, Yiwen and Zhang, Pei},\ntitle = {VibroSense: Multi-Modal Structural Vibration Sensing for Smart Buildings},\nyear = {2025},\nisbn = {9798400799999},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/8888888.7777777},\ndoi = {10.1145/8888888.7777777},\nabstract = {This paper introduces VibroSense, a comprehensive framework for multi-modal structural vibration sensing in smart buildings. By combining floor-mounted geophones with accelerometers, VibroSense can simultaneously monitor occupancy, detect equipment faults, and track environmental conditions. Our deployment in a 5-story office building demonstrates robust performance across diverse sensing tasks.},\nbooktitle = {Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems},\npages = {15--28},\nnumpages = {14},\nlocation = {Hangzhou, China},\nseries = {SenSys '25}\n}\n\npreview image is vibrosense.png",
+      "expected_output": "BibTeX entry with selected={true}, award fields, preview, and abbr={SenSys}. Venue added to venues.yml with dark blue color.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I have a new journal paper in IEEE Transactions on Signal Processing. please add it.\n\n@ARTICLE{10234567,\nauthor={Zhang, Jiale and Li, Chenzhe and Wang, Xiong},\njournal={IEEE Transactions on Signal Processing},\ntitle={Sparse Reconstruction of Vibration Signals for Structural Health Monitoring},\nyear={2025},\nvolume={73},\nnumber={4},\npages={1234-1248},\nkeywords={Signal processing;Vibration;Structural health monitoring;Sparse reconstruction;Compressed sensing},\ndoi={10.1109/TSP.2025.1234567}}\n\npreview is sparse_vibration.jpg",
+      "expected_output": "Journal article BibTeX entry added to papers.bib with preview field, no selected, correct @ARTICLE type preserved",
+      "files": []
+    }
+  ]
+}

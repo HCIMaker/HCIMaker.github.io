@@ -1,0 +1,37 @@
+{
+  "eval_id": 3,
+  "run_type": "without_skill",
+  "expectations": [
+    {
+      "text": "article-type-preserved",
+      "passed": true,
+      "evidence": "Line 3: @ARTICLE{10234567,"
+    },
+    {
+      "text": "preview-field-present",
+      "passed": true,
+      "evidence": "Line 13: preview={sparse_vibration.jpg}"
+    },
+    {
+      "text": "no-selected-field",
+      "passed": true,
+      "evidence": "No selected field in the new entry"
+    },
+    {
+      "text": "journal-field-preserved",
+      "passed": true,
+      "evidence": "Line 5: journal={IEEE Transactions on Signal Processing}"
+    },
+    {
+      "text": "entry-prepended-to-papers-bib",
+      "passed": true,
+      "evidence": "New @ARTICLE entry starts at line 3"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

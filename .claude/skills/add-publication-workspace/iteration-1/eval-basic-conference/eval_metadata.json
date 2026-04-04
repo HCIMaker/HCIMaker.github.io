@@ -1,0 +1,27 @@
+{
+  "eval_id": 1,
+  "eval_name": "basic-conference-paper",
+  "prompt": "Hey, I just got a new paper accepted at UbiComp 2025. Here's the BibTeX from ACM:\n\n@inproceedings{10.1145/9999999.1234567,\nauthor = {Zhang, Jiale and Codling, Jesse R. and Noh, Hae Young and Zhang, Pei},\ntitle = {SmartStep: Real-Time Gait Analysis Using Floor Vibration Sensing},\nyear = {2025},\nisbn = {9798400712345},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/9999999.1234567},\ndoi = {10.1145/9999999.1234567},\nabstract = {We present SmartStep, a floor vibration-based system for real-time gait analysis. Our system uses geophone sensors embedded in floor structures to detect and classify walking patterns without requiring wearable devices. Through experiments in a residential building, SmartStep achieves 94% accuracy in identifying gait abnormalities, enabling early detection of mobility issues in elderly residents.},\nbooktitle = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},\npages = {1--22},\nnumpages = {22},\nkeywords = {gait analysis, floor vibration, ubiquitous sensing, health monitoring},\nlocation = {Melbourne, Australia},\nseries = {UbiComp '25}\n}\n\nThe preview image is smartstep.jpg, I already put it in the right folder.",
+  "assertions": [
+    {
+      "name": "entry-prepended-to-papers-bib",
+      "description": "New BibTeX entry appears in papers.bib after the ---\\n--- front matter but before the first pre-existing entry"
+    },
+    {
+      "name": "preview-field-present",
+      "description": "Entry contains preview = {smartstep.jpg}"
+    },
+    {
+      "name": "no-selected-field",
+      "description": "Entry does NOT contain selected={true} since user didn't request it"
+    },
+    {
+      "name": "original-fields-preserved",
+      "description": "Abstract, keywords, doi, booktitle and other original fields are preserved"
+    },
+    {
+      "name": "valid-bibtex-syntax",
+      "description": "The papers.bib file has valid BibTeX syntax (balanced braces, proper entry structure)"
+    }
+  ]
+}
