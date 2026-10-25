@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first author paper has been accepted by IMWUT'27! Imagine your bed can understand your sleep stages by "shaking" your body with impercetible vibration. (It even works under 14 inches mattress :sunglasses:)
+My first author paper has been accepted by IMWUT'27! Imagine your bed can understand your sleep stages by "shaking" your body with imperceptible vibration. (It even works under a 14-inch mattress :sunglasses:)
