@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-07-19 07:59:00-0400
+date: 2026-09-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I won [Qualcomm Innvotion Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2023-north-america) with [UltraMic](https://hcimaker.github.io/projects/UltraMic/)! Check out this awesome project :sunglasses: !
+My first author paper has been accepted by IMWUT'27! Imagine your bed can understand your sleep stages by "shaking" your body with impercetible vibration. (It even works under 14 inches mattress :sunglasses:)
