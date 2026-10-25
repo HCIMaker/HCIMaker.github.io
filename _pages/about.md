@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p><a href='https://scholar.google.com/citations?user=dFnmuekAAAAJ'>Google Scholar</a></p>
     <p><a href='https://hcimaker.github.io/cv/'>Curriculum Vitae</a></p>
+    <p><a href='https://www.linkedin.com/in/jiale-zhang-2420b71a5'>LinkedIn</a></p>
     <p><strong>Email: jiale (at) umich.edu</strong></p>
 
 news: true # includes a list of news items

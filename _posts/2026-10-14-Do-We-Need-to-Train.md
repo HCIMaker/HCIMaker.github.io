@@ -9,6 +9,7 @@ giscus_comments: true
 related_posts: false
 toc:
   sidebar: left
+published: false
 ---
 
 Today's most capable AI systems are trained by big companies in massive data centers. Unfortunately, academic labs rarely have that much compute or data, let alone enough to run many experiments in parallel. That is even more true for a Ph.D. student like me, who isn't working on frontier models at all.
